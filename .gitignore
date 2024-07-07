@@ -10,3 +10,4 @@ DerivedData/
 vendor/
 fastlane/CodeCoverageReport
 fastlane/UnitTestsReport
+/fastlane/report.xml
