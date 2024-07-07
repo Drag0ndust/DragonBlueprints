@@ -1,32 +1,34 @@
-fastlane documentation
-----
+# DragonBlueprints
 
-# Installation
+Welcome to the DragonBlueprints Swift Package. 
 
-Make sure you have the latest version of the Xcode command line tools installed:
-
-```sh
-xcode-select --install
+## Getting started
+### [Swift Package Manager](https://www.swift.org/package-manager/)
+Add `DragonBlueprints` to your **Package.swift** dependencies
+```swift
+dependencies: [
+    ...
+    .package(url: "https://github.com/Drag0ndust/DragonBlueprints"),
+    ...
+]
 ```
 
-For _fastlane_ installation instructions, see [Installing _fastlane_](https://docs.fastlane.tools/#installing-fastlane)
+## Contribution
+- Read the [Code of Conduct](https://github.com/Drag0ndust/DragonBlueprints/blob/develop/CODE_OF_CONDUCT.md)
+- Read the [Contribution Guidelines](https://github.com/Drag0ndust/DragonBlueprints/blob/develop/CONTRIBUTING.md)
+- Create a new issue or work on an existing issue (check if someone is already assigned first).
+- Feel free to extend the functionality, but ensure your change benefits all users of this package.
 
-# Available Actions
+## Support
+You can sponsor me on [Github Sponsors](https://github.com/sponsors/drag0ndust) to support my open-source projects.
 
-## iOS
+## Contact
 
-### ios unit_tests
+Feel free to reach out if you have questions or if you want to contribute in any way:
 
-```sh
-[bundle exec] fastlane ios unit_tests
-```
+- Threads: [@drag0ndust](https://www.threads.net/@drag0ndust)
+- Mastodon: [@drag0ndust@iosdev.space](https://iosdev.space/@drag0ndust)
+- E-Mail: [thimo.bess@gmail.com](mailto:thimo.bess+opensource@gmail.com)
 
-Run tests and create a unit-test report
-
-----
-
-This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.
-
-More information about _fastlane_ can be found on [fastlane.tools](https://fastlane.tools).
-
-The documentation of _fastlane_ can be found on [docs.fastlane.tools](https://docs.fastlane.tools).
+## License
+This project is licensed under [MIT](https://github.com/Drag0ndust/DragonBlueprints/blob/develop/LICENSE).
